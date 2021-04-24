@@ -1,10 +1,9 @@
-let i = 0;
-let txt = 'Developer'; 
-let speed = 150;
-function typingeffect() {
-  if (i < txt.length) {
-    document.getElementById("typing").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typingeffect, speed);
-  }
-}
+(function($){
+  'use strict';
+    $(window).on('load', function () {
+        if ($(".pre-loader").length > 0)
+        {
+            $(".pre-loader").fadeOut("slow");
+        }
+    });
+})(jQuery)
