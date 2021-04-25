@@ -173,7 +173,7 @@ textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type="submit"] {
-  background-color: #4caf50;
+  background-color: silver;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -183,7 +183,7 @@ input[type="submit"] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: aquamarine;
 }
 
 /* Add a background color and some padding around the form */
@@ -197,4 +197,9 @@ label {
   font-weight: bolder;
   font-family: "Montserrat", sans-serif;
   padding: 50px 0 0 0;
+}
+footer {
+  color: aquamarine;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
 }
